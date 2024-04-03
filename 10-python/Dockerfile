@@ -1,4 +1,4 @@
-FROM edulinq/autograder.base
+FROM shumbo/edulinq.autograder.base
 
 COPY requirements.txt /autograder/
 COPY scripts /autograder/scripts
